@@ -1,15 +1,15 @@
 import "./App.css";
 import React from "react";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Footer from "./components/Footer";
+import Header from "./components/Header";
+import About from "./components/About"
+// import Home from "./components/Home";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Footer />
+    <div className="header">
+      <Header />
+      <About />
     </div>
   );
 }
