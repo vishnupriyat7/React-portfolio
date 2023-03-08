@@ -1,14 +1,14 @@
 import React from "react";
-import "../styles/Services.css";
+import "../styles/Skills.css";
 import { Row, Container, CardGroup, Card, Col } from "react-bootstrap";
 
-function Services() {
+function Skills() {
   return (
-    <div className="services-content">
+    <div className="skills-content">
       <Container>
-        <h1 className="text-center">WHAT SERVICE I OFFER YOU</h1>
+        <h1 className="text-center">SKILLS</h1>
         <Row className="d-flex justify-content-center mt-5">
-          <CardGroup className="text-center">
+          <CardGroup className="text-center" variant="contained">
             <Col lg={4}>
               <Card style={{ width: "25rem" ,height: "20rem"}}   >
                 <Card.Body>
@@ -68,4 +68,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Skills;

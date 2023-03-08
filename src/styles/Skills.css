@@ -1,0 +1,10 @@
+.skills-content {
+    height: 75vh;
+    max-width: 100%;
+    padding-bottom: 20px;
+    background-color: rgb(132, 196, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }

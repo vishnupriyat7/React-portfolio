@@ -11,8 +11,7 @@ function Home() {
         <Row className="d-flex align-items-center justify-content-center">
           <Col>
             <h1>FULL STACK DEVELOPER</h1>
-            Hi,
-            <br />
+                       <br />
             <h1>Hey !</h1>
             <span className="info-name">
               <TypeWriterEffect
