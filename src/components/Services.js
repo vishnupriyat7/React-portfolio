@@ -7,7 +7,7 @@ function Services() {
     <div className="services-content">
       <Container>
         <h1 className="text-center">WHAT SERVICE I OFFER YOU</h1>
-        <Row className="d-flex justify-content-center mt-5">
+        <Row className="m-auto align-self-center mt-5">
           <CardGroup className="text-center">
             <Col lg={4}>
               <Card style={{ width: "25rem" ,height: "20rem"}}   >

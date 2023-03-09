@@ -6,6 +6,7 @@ import About from "./components/About";
 import Services from "./components/Services"
 import Skills from "./components/Skills";
 import {Container} from 'react-bootstrap'
+import Contact from "./components/Contact";
 // import Footer from "./components/Footer";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Services />
         <Skills />
+        <Contact />
       </Container>
     
     </>

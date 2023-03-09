@@ -3,6 +3,14 @@ import "../styles/Skills.css";
 import { Row, Container, CardGroup, Card, Col } from "react-bootstrap";
 
 function Skills() {
+
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   return (
     <div className="skills-content">
       <Container>
@@ -10,7 +18,7 @@ function Skills() {
         <Row className="d-flex justify-content-center mt-5">
           <CardGroup className="text-center" variant="contained">
             <Col lg={4}>
-              <Card style={{ width: "25rem" ,height: "20rem"}}   >
+              <Card style={{ width: "25rem", height: "20rem" }}>
                 <Card.Body>
                   <Card.Title style={{ color: "green" }}>
                     GEEKSFORGEEKS
@@ -28,7 +36,7 @@ function Skills() {
             </Col>
 
             <Col lg={4}>
-              <Card style={{ width: "25rem" , height: "20rem"}}>
+              <Card style={{ width: "25rem", height: "20rem" }}>
                 <Card.Body>
                   <Card.Title style={{ color: "green" }}>
                     GEEKSFORGEEKS
@@ -45,7 +53,7 @@ function Skills() {
               </Card>
             </Col>
             <Col lg={4}>
-              <Card style={{ width: "25rem", height: "20rem"}}>
+              <Card style={{ width: "25rem", height: "20rem" }}>
                 <Card.Body>
                   <Card.Title style={{ color: "green" }}>
                     GEEKSFORGEEKS
