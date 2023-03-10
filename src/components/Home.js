@@ -10,31 +10,36 @@ function Home() {
       <Container>
         <Row className="d-flex align-items-center justify-content-center">
           <Col>
-            <h1>FULL STACK DEVELOPER</h1>
-            <br />
+            <h6>FULL STACK DEVELOPER</h6>
             <h1>Hey !</h1>
-            <span className="info-name">
+            
+            <h2>
               <TypeWriterEffect
                 text="I am Vishnu Priya T"
                 typeSpeed={100}
                 hideCursorAfterText={true}
               />
+            </h2>
+            <br />
+            <span className="developer">
+              Am a Full Stack Developer passionate in building web applications.
             </span>
             <br />
-            Am a MERN, Full Stack Developer passionate and experienced in
-            building web applications.
             <br />
-            <Button variant="primary">Hire Me</Button> <br />
-            Follow Me:
-            <div>
-              <GitHub />
-              <LinkedIn />
-              <Facebook />
+            <Button size="lg" variant="primary">Hire Me</Button> 
+            <br />
+            <br />
+            <span className="follow">Follow Me:</span>
+            <br />
+            <br />
+            <div className="social-media">
+              <GitHub fontSize="large" color="primary" />
+              <LinkedIn fontSize="large" color="primary" />
+              <Facebook fontSize="large" color="primary" />
             </div>
           </Col>
           <Col>
-            {" "}
-            <img
+            {" "}<img
               src={require("../assets/software_img.jpg")}
               className="picture"
             />
