@@ -26,22 +26,22 @@ function Home() {
             </span>
             <br />
             <br />
-            <Button size="lg" variant="primary">Hire Me</Button> 
+            <Button size="lg" variant="primary">HIRE Me</Button> 
             <br />
             <br />
             <span className="follow">Follow Me:</span>
             <br />
             <br />
             <div className="social-media">
-              <GitHub fontSize="large" color="primary" />
-              <LinkedIn fontSize="large" color="primary" />
-              <Facebook fontSize="large" color="primary" />
+              <GitHub href="https://github.com/vishnupriyat7/React-portfolio" target="_blank" fontSize="large" color="primary" />
+              <LinkedIn href="https://www.linkedin.com/in/vishnupriyat/" target="_blank" fontSize="large" color="primary" />
+              <Facebook href="#" fontSize="large" color="primary" />
             </div>
           </Col>
           <Col>
-            {" "}<img
+            {" "}<img style = {{width: '32rem', borderRadius: 20,  }}
               src={require("../assets/software_img.jpg")}
-              className="picture"
+              
             />
           </Col>
         </Row>
