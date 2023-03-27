@@ -49,37 +49,19 @@ h2 {
   border: 2px;
 }
 
-/* .picture {
-  height: 20%;
-  padding: 10rem;
-  border-radius: 25px;
-} */
-/* .about-top{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 50px;
-}
-
-
-.about-info {
-    font-size: 30px;
-}
 
 
 @media only screen and (max-width: 720px) {
-    .about-top{
+  .home-content row{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .picture {
-        height: 280px;
+    img{
+      width: 25rem;
+      flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .about-info {
-        font-size: 20px;
-    }
-    .info-name {
-        font-size: 26px;
-    }
-} */
+   
+} 
